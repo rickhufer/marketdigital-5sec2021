@@ -9,6 +9,7 @@
     background-color: #263238;
     padding: 10px 0;
 }
+
 .top-header a {
     color: white;
     text-decoration: none;
@@ -16,7 +17,8 @@
 
 header {
     width: 1100px;
-    margin: 0 auto; /* Coloca el elemento en el medio */
+    margin: 0 auto;
+    /* Coloca el elemento en el medio */
     padding: 15px 0;
     display: flex;
     justify-content: space-between;
@@ -33,15 +35,19 @@ nav>a {
     color: #3f3f3f;
     font-size: 18px;
 }
+
 nav>a:hover {
     color: #e7685a;
     border-bottom: 2px solid #e7685a;
 }
 
+
 /* NOSOTROS */
+
 .container-nosotros {
     background-color: #edf1f9;
 }
+
 .nosotros {
     width: 100%;
     max-width: 1100px;
@@ -49,11 +55,54 @@ nav>a:hover {
     text-align: center;
     padding: 80px 0;
 }
+
 .nosotros h1 {
     color: #e7685a;
     font-size: 35px;
 }
+
 .nosotros p {
     font-size: 25px;
     font-weight: 300;
+}
+
+
+/* SERVICIOS */
+
+.container-servicios {
+    background: url(../img/servicios.jpg);
+    padding: 120px 0;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.servicios {
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.servicios h2 {
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.servicios p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 0 20px 0;
+}
+
+.servicios button {
+    background-color: #e55345;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin: 0 auto;
 }
